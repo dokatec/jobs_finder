@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jobs Finder</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Job Finder</h1>
+      <nav>
+        <a class="nav_link" href="index.html">Ver Vagas</a>
+        <a class="nav_btn" href="cadastrar.html">Abrir Vaga</a>
+      </nav>
+    </header>
+    <main>
+      <section class="main_cadastrar">
+        <h1>Divulgue a vaga preenchendo o formulário</h1>
+        <h3>
+          Preencha os dados da melhor forma possivel para encontrar mais rapido
+          seu dev!
+        </h3>
+        <form class="main_form" action="/" method="post">
+          <label for="">Titulo da vaga:</label>
+          <input class="main_input" type="text" />
+          <label for="">Descrição da vaga:</label>
+          <textarea class="main_textarea" name=""></textarea>
+          <label for="">Empresa contratante:</label>
+          <input class="main_input" type="text" />
+          <label for="">E-mail para contato:</label>
+          <input class="main_input" type="email" name="email" required />
+          <label for="">Salário oferecido:</label>
+          <input class="main_input" type="text" />
+          <button class="btn_submit" type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

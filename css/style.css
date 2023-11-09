@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto";
+  color: #737373;
+  width: 100%;
+  height: 100vh;
+}
+
+header {
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-weight: 700;
+}
+nav {
+  margin: 0 2%;
+}
+
+.nav_link {
+  text-decoration: none;
+  color: #737373;
+  font-weight: 500;
+  margin: 0 10px;
+  transition: 0.8s;
+}
+
+.nav_link:hover {
+  color: #ff6f6f;
+}
+
+.nav_btn {
+  background-color: #ff6f6f;
+  padding: 10px 20px;
+  color: #fff;
+  transition: 0.8s;
+  text-decoration: none;
+}
+
+.nav_btn:hover {
+  opacity: 0.5;
+}
+
+.main_finder {
+  background-image: url("../imgs/imagem-background.png");
+  width: 100%;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main_finder h1 {
+  font-size: 30pt;
+  color: #fff;
+  font-weight: 700;
+  margin: 6% 0;
+}
+.main_finder p {
+  color: #fff;
+}
+.section_jobs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main_jobs {
+  border: 1px solid #adadad;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 3% 10% 0 10%;
+  display: flex;
+  align-items: center;
+}
+
+.main_jobs img {
+  width: 10%;
+  height: 15%;
+}
+
+.jobs_descricao {
+  margin: 0 2%;
+}
+
+/* Pagina de Cadastrar vaga*/
+
+.main_cadastrar {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main_form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 80%;
+}
+
+.main_input {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #9a9a9a;
+  background: #f0f0f0;
+  font-family: "Roboto";
+  font-size: 16px;
+  outline: none;
+}
+
+.main_textarea {
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+  border: 1px solid #9a9a9a;
+  background: #f0f0f0;
+  font-family: "Roboto";
+  font-size: 16px;
+  outline: none;
+}
+
+.btn_submit {
+  width: 20%;
+  height: 40px;
+  background-color: #ff6f6f;
+  color: #fff;
+  box-shadow: none;
+  outline: none;
+  border: 0px;
+  cursor: pointer;
+}
