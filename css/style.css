@@ -68,6 +68,25 @@ nav {
 .main_finder p {
   color: #fff;
 }
+.main_form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.main_form input {
+  width: 50%;
+  height: 40px;
+}
+
+.main_form button {
+  width: 20%;
+  height: 40px;
+  background-color: #ff6f6f;
+  border: none;
+}
+
 .section_jobs {
   display: flex;
   flex-direction: column;
